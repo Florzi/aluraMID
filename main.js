@@ -1,19 +1,17 @@
 alert('Olá, mundo');
-<script src="main.js"></script>
 
 function tocaSomPom(){
-    document.querySelector('#som_tecla_pom').play();
+document.querySelector('#som_tecla_pom').play();
 }
+documento.querySelectorAll('.tecla');
+const listaDeTelas=document.querySelectorAll('.tecla');
 
-<button onclick="tocaSomPom()” class="tecla "tecla_pom”>Pom</button>
-document.querySelector('.tecla_pom').onclick> ;
-document.querySelector('.tecla_pom').onclick = tocaSomPom;
+listaDeTeclas[0].onclick = tocaSomPom;
 
-function tocaSomPom(){
-    document.querySelector('#som_tecla_pom').play();
-    }
-    document.querySelector('.tecla_pom').onclick = tocaSomPom;
-    document.querySelectorAll('.tecla');
-
-
+let container = 0;
+ 
+//Estrutura de repetição - Enquanto
+while(container<9) {
+    
+}
 
