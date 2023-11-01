@@ -1,17 +1,13 @@
-alert('Olá, mundo');
 
-function tocaSomPom(){
-document.querySelector('#som_tecla_pom').play();
+function tocaSomPom(idElementoAudio){
+     document.querySelector(idElementoAudio).play();
 }
-documento.querySelectorAll('.tecla');
-const listaDeTelas=document.querySelectorAll('.tecla');
 
-listaDeTeclas[0].onclick = tocaSomPom;
+const listaDeTeclas = document.querySelectorAll('.tecla');
 
-let container = 0;
- 
-//Estrutura de repetição - Enquanto
-while(container<9) {
-    
+//para
+for( let contador = 0; contador < listaDeTeclas.length; container++){
 }
+  const tecla = listaDeTeclas[contador];
+  const intrumento = tecla.class
 
